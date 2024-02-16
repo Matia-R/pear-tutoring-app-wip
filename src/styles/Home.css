@@ -1,0 +1,49 @@
+.hero-div {
+    top: 0;
+    z-index: 0;
+    position: absolute;
+    padding-top: 10vh;
+    background: rgb(4, 170, 70);
+    background: linear-gradient(150deg, rgba(4, 170, 70, 1) 0%, rgba(14, 186, 82, 1) 21%, rgba(20, 196, 90, 1) 32%, rgba(31, 214, 104, 1) 46%, rgba(36, 221, 110, 1) 51%, rgba(78, 251, 147, 1) 77%, rgba(124, 255, 176, 1) 100%);
+}
+
+/* official logo color: #24dd6e */
+.custom-shape-divider-bottom-1662412406 {
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1662412406 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 15vh;
+}
+
+.custom-shape-divider-bottom-1662412406 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.hero-img {
+    width: 65vw;
+    height: 40vh;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1662412406 svg {
+        width: calc(100% + 1.3px);
+        height: 98px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-img {
+        width: 90vw;
+        height: 56vh;
+    }
+}

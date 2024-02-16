@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+[type="checkbox"]:focus:not(:focus-visible) {
+    @apply focus:ring-0 focus:ring-offset-0;
+}
+
+[type="checkbox"]:focus-visible {
+    @apply ring-2 ring-offset-2;
+}
