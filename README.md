@@ -12,3 +12,6 @@ We are in very early stages of development and I wanted to have a point of refer
 
 ## How do I join the project?
 So happy you're interested! Shoot me an email at matia1606@gmail.com if you're interested in working on the project and we'll be in touch 😀
+
+## Live Build
+Check out our live dev build: https://pear-tutoring-app.vercel.app/
